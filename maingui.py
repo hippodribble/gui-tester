@@ -1,6 +1,7 @@
 from PyQt5.Qt import *
 from PyQt5.uic import loadUi
 import sys
+import os
 
 
 class maingui(QMainWindow):
@@ -18,11 +19,16 @@ class maingui(QMainWindow):
 
     def loadFile(self):
         a = QFileDialog()
-        f = a.getOpenFileName(self, 'Open a file!', filter='All image files (*.png *.jpg *.wav);;All sound files (*.mp3 *.aac)')
-        self.statusBar().showMessage(f[0], 2000)
-        self.lblFile.setText(f[0])
+        f = a.getOpenFileNames(self, 'Open a file!', filter='All image files (*.png *.jpg *.wav);;All sound files (*.mp3 *.aac)')
+        # self.statusBar().showMessage(f[0], 2000)
+        # self.lblFile.setText(f[0])
+        print(type(f))
+        for item in f[0]:
+            # print(type(item), item)
+            self.text.appendPlainText(item)
 
 
+        # QPlainTextEdit().appendPlainText('\n')
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
