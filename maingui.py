@@ -20,6 +20,7 @@ class maingui(QMainWindow):
         a = QFileDialog()
         f = a.getOpenFileName(self, 'Open a file!', filter='All image files (*.png *.jpg *.wav);;All sound files (*.mp3 *.aac)')
         self.statusBar().showMessage(f[0], 2000)
+        self.lblFile.setText(f[0])
 
 
 
