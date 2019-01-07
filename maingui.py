@@ -32,6 +32,7 @@ class maingui(QMainWindow):
         self.statusBar().showMessage('Opened {} files'.format(nFiles), 2000)
         # QPlainTextEdit().appendPlainText('\n')
 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     m=maingui()
