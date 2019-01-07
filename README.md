@@ -79,3 +79,8 @@ if __name__ == '__main__':
         self.lblFileCount.setText(str(nFiles))
         self.statusBar().showMessage('Opened {} files'.format(nFiles), 2000)
 ```
+**Links**
+
+[Difference between PyQt4 and PyQt5](http://pyqt.sourceforge.net/Docs/PyQt5/pyqt4_differences.html)
+
+[PyQt at Wikipedia](https://en.wikipedia.org/wiki/PyQt)
