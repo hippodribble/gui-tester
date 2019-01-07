@@ -1,7 +1,5 @@
 # gui-tester
- 
-  
-  
+
 Just to test __PyCharm__ with __PyQt5__
 A basic _MainWindow_ dialog opens.
 Press the button, and then select one or more audio or image files.
@@ -32,7 +30,8 @@ class maingui(QMainWindow):
 - There's a check after all of the definitions to see if we are in the main module. If we are, then we:
 - create a QApplication object (the ```sys.argv``` argument allows us to enter parameters at the command line, if we want to
 - get an instance of our MainWindow class
-- run it via ```sys.exit(app.exec_)
+- ```sys.exit(app.exec_)``` starts things off
+
 ```
 if __name__ == '__main__':
     app = QApplication(sys.argv)
