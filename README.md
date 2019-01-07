@@ -81,6 +81,7 @@ if __name__ == '__main__':
 ```
 **Links**
 
-[Difference between PyQt4 and PyQt5](http://pyqt.sourceforge.net/Docs/PyQt5/pyqt4_differences.html)
+- [PyQt at Wikipedia](https://en.wikipedia.org/wiki/PyQt) for general information
+- [PyQt5 at YouTube](https://www.youtube.com/results?search_query=pyqt5) contains some online tutorials
+- [Difference between PyQt4 and PyQt5](http://pyqt.sourceforge.net/Docs/PyQt5/pyqt4_differences.html) if you have used PyQt4 before
 
-[PyQt at Wikipedia](https://en.wikipedia.org/wiki/PyQt)
