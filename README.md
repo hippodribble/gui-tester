@@ -1,4 +1,4 @@
-# gui-tester
+# pyqt5-usage-demo
 
 Just to test __PyCharm__ with __PyQt5__
 A basic _MainWindow_ dialog opens.
