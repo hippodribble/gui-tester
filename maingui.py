@@ -26,8 +26,9 @@ class maingui(QMainWindow):
         for item in f[0]:
             # print(type(item), item)
             self.text.appendPlainText(item)
-
-
+            nFiles=len(f[0])
+        self.lblFileCount.setText(str(nFiles))
+        self.statusBar().showMessage('Opened {} files'.format(nFiles), 2000)
         # QPlainTextEdit().appendPlainText('\n')
 
 if __name__ == '__main__':
