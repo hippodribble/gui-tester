@@ -18,6 +18,7 @@ class maingui(QMainWindow):
 
 
     def loadFile(self):
+        '''loads some files to the GUI'''
         a = QFileDialog()
         f = a.getOpenFileNames(self, 'Open a file!', filter='All image files (*.png *.jpg *.wav);;All sound files (*.mp3 *.aac)')
         # self.statusBar().showMessage(f[0], 2000)
