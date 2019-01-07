@@ -18,6 +18,7 @@ class maingui(QMainWindow):
 
 
     def loadFile(self):
+        '''loads some files to the GUI'''
         a = QFileDialog()
         f = a.getOpenFileNames(self, 'Open a file!', filter='All image files (*.png *.jpg *.wav);;All sound files (*.mp3 *.aac)')
         # self.statusBar().showMessage(f[0], 2000)
@@ -30,6 +31,7 @@ class maingui(QMainWindow):
         self.lblFileCount.setText(str(nFiles))
         self.statusBar().showMessage('Opened {} files'.format(nFiles), 2000)
         # QPlainTextEdit().appendPlainText('\n')
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
