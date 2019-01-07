@@ -1,14 +1,20 @@
-# gui-tester
+# pyqt5-usage-demo
 
-Just to test __PyCharm__ with __PyQt5__
-A basic _MainWindow_ dialog opens.
-Press the button, and then select one or more audio or image files.
-The names of the files appear in the window. The total number of files appears to the right.
-The status bar flashes the number of files for 2 seconds.
+Just to show __PyQt5__ being used from __PyCharm__
+
+**Usage**
+
+1. A basic _MainWindow_ dialog opens.
+1. Press the button, and then select one or more audio or image files.
+1. The names of the files appear in the window. The total number of files appears to the right.
+1. The status bar flashes the number of files for 2 seconds.
 
 ## Why
 
-The typical way of creating a PyQt5 GUI is demonstrated:
+The typical way of creating a PyQt5 GUI is demonstrated.
+In particular, a .ui file from Qt Designer is used to construct the GUI.
+This allows the graphical Designer application to be used,
+and the resulting XML (.ui) fileto be loaded by Python.
 
 ### Imports
 
