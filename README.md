@@ -61,7 +61,7 @@ if __name__ == '__main__':
 - ```self.bFile.clicked.connect(self.loadFile)``` is used to connect the PushButton to some code
 - ```self.show()``` displays the GUI on the screen
 
-**Handle the PushButton***
+**Handle the PushButton**
 - Our PushButton uses the following code. It starts off by instamntiating a file opening dialog (part of PyQt)
 - next, we get the names of the files that were selected into a tuple
 - the first element of the tuple has an array of the fgiles we have selected
